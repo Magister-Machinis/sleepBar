@@ -13,6 +13,7 @@ function sleepBar
 	{
 		Start-Sleep -Milliseconds $mil
 	}
+
 	$timer = ($hour*60*60)+($min*60)+$sec
     for($count = 0; $count -lt $timer; $count++)
     {
