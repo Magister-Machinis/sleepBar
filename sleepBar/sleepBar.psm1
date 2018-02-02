@@ -20,5 +20,5 @@ function sleepBar
         write-progress -id 1 -activity "Sleeping: " -status "=][=  $count" -percentcomplete $percent -secondsremaining ($timer - $count)
         start-sleep -s 1
     }
-    Write-Progress -id 1 -Completed
+    Write-Progress -id 1 -Completed -activity ""
 }
